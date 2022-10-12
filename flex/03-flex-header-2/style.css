@@ -12,6 +12,15 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;/*i added*/
+  justify-content: space-between;/*i added*/
+  padding: 8px;/*i added*/
+}
+
+.left, .right {/*i added*/
+  display: flex;/*i added*/
+  align-items: center;/*i added*/
+  gap: 16px;/*i added*/
 }
 
 .profile-image {
@@ -20,6 +29,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  
 }
 
 .logo {
@@ -45,4 +55,8 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;/*i added*/
+  margin: 0;/*i added*/
+  padding: 0;/*i added*/
+  gap: 16px;/*i added*/
 }
